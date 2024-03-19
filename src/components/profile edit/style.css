@@ -1,0 +1,148 @@
+.edit-profile-form-container {
+     position: fixed;
+    z-index: 1200;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .7);
+    overflow: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.edit-profile-form-container input {
+    margin: 5px 0px;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+    transition: .3s all;
+}
+
+.edit-profile-form-container input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);}
+
+.edit-profile-form-container h1 {
+    text-align: center;
+}
+
+.edit-profile-form {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    margin:10px auto;
+}
+
+.edit-profile-form-container .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.edit-profile-form-container .black-title-lg {
+    font-weight: 600;
+}
+
+.edit-profile-options {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_image_container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0px 0px 13px 5px rgb(0, 98, 255);
+    border: 2px solid white;
+}
+
+.profile_image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.edit-option label {
+    cursor: pointer;
+    background-color: rgb(0, 98, 255);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    box-shadow: 0px 0px 13px 5px rgb(0, 98, 255);
+    border: 2px solid white;
+    transition: .3s all;
+}
+
+.edit-option label:hover {
+    box-shadow: 0px 0px 13px 5px rgb(0, 98, 255);
+}
+
+.delete-option label:hover {
+    box-shadow: 0px 0px 13px 5px rgb(236, 19, 19);
+}
+
+.edit-option #upload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.delete-option label {
+    cursor: pointer;
+    background-color: rgb(236, 19, 19);
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 2px rgb(236, 19, 19);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: .3s all;
+    border: 2px solid white;
+}
+
+
+.image-and-option-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.white-back-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+

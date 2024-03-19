@@ -1,0 +1,45 @@
+.logo {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.logo:hover {
+    font-size: 1.5rem;
+}
+
+.logout {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.option {
+    font-weight: 300;
+    transition: .3s all;
+    position: relative;
+    width: fit-content;
+}
+
+.option:hover {
+    text-decoration: underline;
+}
+
+.nav-bar {
+    background-color: var(--primary);
+    backdrop-filter: blur(20px);
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+}
+.hover-grow{
+    transition: .3s all;
+}
+.hover-grow:hover{
+    transform: scale(1.5);
+}
